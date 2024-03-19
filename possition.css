@@ -1,0 +1,168 @@
+
+body {
+    font-family: "Madimi On", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url("./bgImg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+ 
+ .class1{
+     
+      
+color: rgb(115, 124, 184);
+
+
+}
+
+.hero{
+justify-content: center;
+align-items: center;
+display: flex;
+background-color: rgb(36, 68, 141);
+position: fixed;
+width: 100%;
+ height: 250px;
+ border: 2px ridge rgba(16, 9, 95, 0.6);
+ 
+}
+
+.hero::after{
+content: "";
+display:block;
+position:absolute;
+top:0;
+left: 50%;
+transform: translateX(-60%);
+width: 300px;
+height: 300px;
+background-color: rgb(22, 4, 215);
+ filter: blur(50px);
+z-index: 1;
+
+
+
+
+}
+section{
+    padding: 20px 50px;
+
+ 
+
+
+
+}
+
+.info1{
+width: 300px;
+
+
+}
+
+.info2{
+width: 300px;
+;
+
+
+}
+
+.kraken{
+display: flex;
+ justify-content: space-between;
+padding-top: 400px;
+
+
+
+
+}
+
+
+.Ruby{
+width: auto;
+height: 500px;
+position: fixed;
+ bottom: 50px;
+left: 50%;
+transform: translateX(-50%);
+}
+ 
+.Gillman{
+display: block;
+padding-top: 350px;
+text-align: center;
+position: fixed;
+z-index: 100;
+left: 50%;
+transform: translateX(-50%);
+color:  #1b2074cc;
+}
+
+
+ 
+
+/* CSS */
+.link {
+  background-color: #1a6ba5;
+  border: 0;
+  border-radius: 56px;
+  color:  #1b2074cc;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  left: 50px;
+ bottom: 70px;
+  touch-action: manipulation;
+
+}
+
+.link:before {
+  background-color: initial;
+  background-image: linear-gradient(#ffffff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.link:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 60px;
+  }
+}
+
+.heroimg{
+
+position:absolute;
+z-index: 2;
+transform: translateX(-55%);
+left: 50%;
+
+
+
+
+
+
+
+}
